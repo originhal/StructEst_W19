@@ -56,13 +56,13 @@ Grades will be based on the four categories listed below with the corresponding 
 
 Assignment                   | Points |   Percent  |
 -----------------------------|--------|------------|
-Problem Sets                 |   50   |    62.5%   |
-Project initial presentation |    5   |     6.3%   |
-Project final presentation   |    5   |     6.3%   |
-Project paper                |   20   |    25.0%   |
-**Total points**             | **80** | **100.0%** |
+Problem Sets                 |   40   |    57.2%   |
+Project initial presentation |    5   |     7.1%   |
+Project final presentation   |    5   |     7.1%   |
+Project paper                |   20   |    28.6%   |
+**Total points**             | **70** | **100.0%** |
 
-* **Homework:** I will assign 5 problem sets throughout the term.
+* **Homework:** I will assign 4 problem sets throughout the first half of the term.
     * You must write and submit your own computer code, although I encourage you to collaborate with your fellow students. I **DO NOT** want to see a bunch of copies of identical code. I **DO** want to see each of you learning how to code these problems so that you could do it on your own.
     * Problem set solutions, both written and code portions, will be turned in via a pull request from your private [GitHub.com](https://git-scm.com/) repository which is a fork of the class master repository on my account. (You will need to set up a GitHub account if you do not already have one.)
     * Problem sets will be due on the day listed in the Daily Course Outline section of this syllabus (see below) unless otherwise specified. Late homework will not be graded.
@@ -84,22 +84,25 @@ I will use a shell script to clone all class members' repositories at the time t
 | Jan.  7 | M | Introduction                        |         |     |
 | Jan.  9 | W | Structural vs. reduced form disc.   | K2010   | [PS1](https://github.com/rickecon/StructEst_W19/blob/master/ProblemSets/PS1/PS1.pdf) |
 |         |   |                                     | R2010   |     |
-| Jan. 14 | M | Maximum likelihood estimation (MLE)  | [Notebk](https://github.com/rickecon/StructEst_W19/blob/master/Notebooks/MLE/MLest.ipynb) | [PS2](https://github.com/rickecon/StructEst_W19/blob/master/ProblemSets/PS1/PS1.pdf) |
+| Jan. 14 | M | Maximum likelihood estimation (MLE)  | [Notebk](https://github.com/rickecon/StructEst_W19/blob/master/Notebooks/MLE/MLest.ipynb) | [PS2](https://github.com/rickecon/StructEst_W19/blob/master/ProblemSets/PS2/PS2.pdf) |
 | Jan. 16 | W | Maximum likelihood estimation (MLE) |  |     |
 | Jan. 21 | M | **No class (Martin Luther King, Jr. Day)** |    |     |
 | Jan. 23 | W | Compare ML and GMM                  | FMS1995 |  |
-| Jan. 28 | M | Generalized method of moments (GMM) | Notes | PS3 |
+| Jan. 28 | M | Generalized method of moments (GMM) | [Notebk](https://github.com/rickecon/StructEst_W19/blob/master/Notebooks/GMM/GMMest.ipynb) | [PS3](https://github.com/rickecon/StructEst_W19/blob/master/ProblemSets/PS3/PS3.pdf) |
+| Jan. 30 | W | No Class: Winter Weather Cancellation |      |     |
 | Feb.  4 | M | Generalized method of moments (GMM) | H1982   |     |
-| Feb.  6 | W | Simulated Method of Moments (SMM)   | Notes |     |
-| Feb. 11 | M | Simulated Method of Moments (SMM)   | DM2004  | PS4 |
+| Feb.  6 | W | Simulated Method of Moments (SMM)   | [Notebk](https://github.com/rickecon/StructEst_W19/blob/master/Notebooks/SMM/SMMest.ipynb) | [PS4](https://github.com/rickecon/StructEst_W19/blob/master/ProblemSets/PS4/PS4.pdf) |
+| Feb. 11 | M | Simulated Method of Moments (SMM)   | DM2004  |  |
 |         |   |                                     | S2008   |       |
-| Feb. 13 | W | Proposal guidelines, example presentation, topics | Notes |  |
-| Feb. 18 | M | Workshop presentations, sign up     |     | PS5 |
+| Feb. 13 | W | Proposal guidelines, example presentation, topics | [Slides](https://github.com/rickecon/StructEst_W19/blob/master/Projects/ProposalPresent.pdf) |  |
+| Feb. 18 | M | Workshop presentations, sign up     |     |  |
 | Feb. 20 | W | Student proposal presentation       |         | Prop |
-| Feb. 25 | M | Project: Data Description           | ASV2013 |     |
-| Feb. 27 | W | Project: Model Description          |         |     |
-| Mar.  4 | M | Project: Estimation Section         |         |     |
-| Mar.  6 | W | Project: Concl., Intro., Abstract   |         |     |
+| Feb. 25 | M | Project: Data Description           | [Slides](https://github.com/rickecon/StructEst_W19/blob/master/Projects/DataSection_slides.pdf), B2017  |     |
+|         |   |                                     | ASV2013, R1987 |     |
+| Feb. 27 | W | Project: Model Description          | [Slides](https://github.com/rickecon/StructEst_W19/blob/master/Projects/ModelDescr_slides.pdf), DEP2019 |     |
+|         |   |                                     | LNT2016 |     |
+| Mar.  4 | M | Project: Estimation Section         | [Slides](https://github.com/rickecon/StructEst_W19/blob/master/Projects/EstimResults_slides.pdf) |     |
+| Mar.  6 | W | Project: Concl., Intro., Abstract   | [Slides](https://github.com/rickecon/StructEst_W19/blob/master/Projects/IntroAbsConcl_slides.pdf) |     |
 | Mar. 11 | M | Student project presentation        |         | Prsnt|
 | Mar. 13 | W | Student project presentation        |         | Prsnt|
 | Mar. 22 | Fr | Student project write-up is due (5pm) |         | Proj |
@@ -109,8 +112,10 @@ I will use a shell script to clone all class members' repositories at the time t
 
 * Adda, Jerome and Russell Cooper, *Dynamic Economics: Quantitative Methods and Applications*, MIT Press (2003)
 * Altonji, Joseph G., Anthony A. Smith, Jr., and Ivan Vidangos, "Modeling Earnings Dynamics," *Econometrica*, 84:4, pp. 1395-1454 (July 2013)
+* Blundell, Richard, "What Have We Learned From Structural Models?" *American Economic Review: Papers and Proceedings*, 107:5, pp. 287-292 (2017)
 * Brock, William A. and Leonard J. Mirman, "Optimal Economic Growth and Uncertainty: The Discounted Case," *Journal of Economic Theory*, 4:3, pp. 479-513 (June 1972)
 * Davidson, Russell and James G. MacKinnon, *Econometric Theory and Methods*, Oxford University Press (2004)
+* DeBacker, Jason, Richard W. Evans, and Kerk L. Phillips, "Integrating Microsimulation Models of Tax Policy into a DGE Macroeconomic Model," *Public Finance Review*,  47:2, pp. 207-275 (Mar. 2019)
 * Duffie, Darrell and Kenneth J. Singleton, "Simulated Moment Estimation of Markov Models of Asset Prices", *Econometrica*, 61:4, pp. 929-952 (July 1993)
 * Fuhrer, Jeffrey C. and George R. Moore, and Scott D. Schuh, "Estimating the Linear-quadratic Inventory Model: Maximum Likelihood versus Generalized Method of Moments," *Journal of Monetary Economics*, 35:1, pp. 115-157 (Feb. 1995).
 * Gourieroux, Christian and Alain Monfort, *Simulation-based Econometric Methods*, Oxford University Press (1996)
@@ -119,12 +124,14 @@ I will use a shell script to clone all class members' repositories at the time t
 * Keane, Michael P., "Structural vs. Atheoretic Approaches to Econometrics," *Journal of Econometrics*, 156:1, pp. 3-20 (May 2010).
 * Laroque, G. and B. Salanie, "Simulation Based Estimation Models with Lagged Latent Variables", *Journal of Applied Econometrics*, 8:Supplement, pp. 119-133 (December 1993)
 * Lee, Bong-Soo and Beth Fisher Ingram, "Simulation Estimation of Time Series Models", *Journal of Econometrics*, 47:2-3, pp. 197-205 (February 1991)
+* Li, Xin, Borghan Narajabad, and Ted Temzelides, "Robust Dynamic Energy Use and Climate Change," *Quantitative Economics*, 7, pp. 821-857 (2016)
 * McDonald, James B., "Some Generalized Functions for the Size Distribution of Income," *Econometrica* 52:3, pp. 647-665 (May 1984)
 * McDonald, James B. and Yexiao Xu, "A Generalization of the Beta Distribution with Applications," *Journal of Econometrics*, 66:1-2, pp. 133-152 (March-April 1995)
 * McDonald, James B., Jeff Sorensen, and Patrick A. Turley, "Skewness and Kurtosis Properties of Income Distribution Models," *Review of Income and Wealth*, 59:2, pp. 360-374 (June 2013)
 * McFadden, Daniel, "A Method of Simulated Moments for Estimation of Discrete Response Models without Numerical Integration," *Econometrica*, 57:5, pp. 995-1026 (September 1989)
 * Newey, Whitney K. and Kenneth D. West, "A Simple, Positive, Semi-definite, Heteroskedasticy and Autocorrelation Consistent Covariance Matrix," *Econometrica*, 55:3, pp. 703-708 (May 1987)
 * Rust, John, "Comments on: 'Structural vs. Atheoretic Approaches to Econometrics' by Michael Keane," *Journal of Econometrics*, 156:1, pp. 21-24 (May 2010).
+* Rust, John, "Optimal Replacement of GMC Bus Engines: An Empirical Model of Harold Zurcher," *Econometrica*, 55:5, pp. 999-1033 (Sep. 1987).
 * Smith, Anthony A. Jr., "[Indirect Inference](http://www.econ.yale.edu/smith/palgrave7.pdf)," *New Palgrave Dictionary of Economics*, 2nd edition, (2008).
 
 
